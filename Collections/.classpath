@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="com.collection.arraylist"/>
+	<classpathentry kind="src" path="com.collection.linkedlist"/>
+	<classpathentry kind="src" path="com.collection.hashmap"/>
+	<classpathentry kind="src" path="com.collection.hashset"/>
+	<classpathentry kind="src" path="com.collection.stack"/>
+	<classpathentry kind="src" path="com.collection.queue"/>
+	<classpathentry kind="src" path="com.collection.strings"/>
+	<classpathentry kind="src" path="com.collection.stringbuilder"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
