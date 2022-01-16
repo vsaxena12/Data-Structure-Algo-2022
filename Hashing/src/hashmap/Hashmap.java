@@ -49,7 +49,7 @@ public class Hashmap {
                     + " \"vishal\" is: " + a);
 		}
 		
-		if(map.containsValue("3")) {
+		if(map.containsValue(3)) {
 			System.out.println("Set: "+map.get("Kiara"));
 		}
 		
@@ -62,7 +62,7 @@ public class Hashmap {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		System.out.println("Hello World");
 		addNewElementPairs();
 	}
