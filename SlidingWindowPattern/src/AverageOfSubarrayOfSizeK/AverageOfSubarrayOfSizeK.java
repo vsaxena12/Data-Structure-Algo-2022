@@ -3,7 +3,7 @@ package AverageOfSubarrayOfSizeK;
 public class AverageOfSubarrayOfSizeK {
 	
 	//Brute Force Algorithm
-	public static double[] findAverages(int k, int[] arr) {
+	public double[] findAverages(int k, int[] arr) {
 		double result[] = new double[arr.length - k+1];
 		
 		for(int i=0; i<=arr.length-k; i++) {
