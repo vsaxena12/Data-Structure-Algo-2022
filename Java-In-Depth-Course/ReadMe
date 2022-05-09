@@ -1,0 +1,21 @@
+#Java Development
+
+## Introduction
+
+What is Java?
+	-General purpose
+	-OO
+	-Platform independence
+	-Concurrent
+	-Very Fast
+	-Secure
+	-Garbage Management
+	
+Platform Independence using interpreter.   
+
+Source code -> Byte code (using Java compiler) -> machine code (Interpreting byte code into machine code using JVM)
+
+Just-in-time (JIT) compilation ~ by JVM
+
+
+
