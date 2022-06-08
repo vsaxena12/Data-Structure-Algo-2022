@@ -1,4 +1,4 @@
-package main;
+package driver;
 import collection.arraylist.ArrayListCollection;
 import collection.hashMap.HashMapDemo;
 import collection.hashSet.HashSetDemo;
