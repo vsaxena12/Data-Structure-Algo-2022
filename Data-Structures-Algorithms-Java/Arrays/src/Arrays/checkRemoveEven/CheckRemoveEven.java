@@ -1,7 +1,7 @@
 package Arrays.checkRemoveEven;
 
 public class CheckRemoveEven {
-	public static int[] removeEven(int[] arr) {
+	public static long[] removeEven(long[] arr) {
 		// Write - Your - Code- Here
 		int newLength = 0;
 		for(int i=0; i<arr.length; i++){
@@ -9,7 +9,7 @@ public class CheckRemoveEven {
 				newLength++;
 			}
 		}
-		int resultArray[] = new int[newLength];
+		long resultArray[] = new long[newLength];
 		int j = 0;
 		for(int i=0; i<arr.length; i++){
 			if(arr[i]%2 != 0){
@@ -18,5 +18,6 @@ public class CheckRemoveEven {
 			}
 		}
 		return resultArray; // change this and return the correct result array
+        //Time complexity is O(n)
 	}
 }
