@@ -32,11 +32,21 @@ public class Driver {
     }
 
     public static void reverseLinkedList() {
+        LinkedList list = new LinkedList();
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+        list.print();
+
+        list.reverseList();
+        list.print();
 
     }
 
     public static void main(String[] args) {
-        linkedList();
+        // linkedList();
+        reverseLinkedList();
     }
 
 }

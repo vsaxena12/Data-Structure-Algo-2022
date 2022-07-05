@@ -68,14 +68,30 @@ public class LinkedList {
     public void print() {
         Node printNode = head;
         while (printNode != null) {
-            System.out.println(printNode.data);
+            System.out.print(printNode.data + " -> ");
             printNode = printNode.next;
         }
+        System.out.print("NULL\n");
         // printNode.next = newNode
     }
 
     public int getSize() {
         return size;
+    }
+
+    public void reverseList() {
+        Node previousNode = head;
+        Node currentNode = head.next;
+
+        while (currentNode != null) {
+            Node nextNode = currentNode.next;
+            currentNode.next = previousNode;
+
+            previousNode = currentNode;
+            currentNode = nextNode;
+        }
+        head.next = null;
+        head = previousNode;
     }
 
 }
