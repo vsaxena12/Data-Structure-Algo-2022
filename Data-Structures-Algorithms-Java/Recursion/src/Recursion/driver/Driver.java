@@ -44,9 +44,10 @@ public class Driver {
          */
 
         // FindOccurances.findOccurances("abaadfdfae", 0, 'a');
-
         // System.out.println(Sorted.isSorted(new int[] { 1, 2, 2, 4, 5 }, 0));
 
-        MoveTowardsEnd.moveTowardsEnd("axbcxx", 0, 0, 'x', "");
+        // MoveTowardsEnd.moveTowardsEnd("axbcxx", 0, 0, 'x', "");
+
+        RemoveDuplicate.removeDuplicate("axbcxxda", 0, "");
     }
 }
